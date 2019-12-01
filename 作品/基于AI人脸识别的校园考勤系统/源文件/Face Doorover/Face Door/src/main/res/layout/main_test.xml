@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+<!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:textSize="20dp"-->
+    <!--android:textColor="#000"-->
+    <!--android:text="智慧身份认证，保障人身安全"-->
+    />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/head" />
+
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="Face Door，你的大学自律助手！"
+        android:textColor="#505050"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="166dp"
+        android:gravity="center">
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Step1."-->
+        <!--android:layout_marginTop="355dp"-->
+        <!--android:textColor="@color/colorAccent"/>-->
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:text="新生注册"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="101dp"
+        android:gravity="center">
+        <!--<TextView-->
+        <!--android:text="Step2."-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--320-->
+        <!--android:layout_height="wrap_content"/>-->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttonshape"
+            android:text="扫脸签到"
+            android:textColor="#fff"
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/transparent"
+        android:text="账号登录"
+        android:textColor="#88000000"
+        android:textSize="16dp" />
+</RelativeLayout>
